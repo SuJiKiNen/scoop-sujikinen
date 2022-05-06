@@ -14,6 +14,7 @@ How do I contribute new manifests?
 To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
 
 
-# App manifest
-1. EitherMouse
-2. Weylu
+# App manifests
+1. EitherMouse 独立设置不同鼠标交换左右键
+2. Weylus 把手机或者平板作为手写输入，副屏等
+
