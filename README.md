@@ -17,4 +17,6 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 # App manifests
 1. EitherMouse 独立设置不同鼠标交换左右键
 2. Weylus 把手机或者平板作为手写输入，副屏等
+3. ISCSIConsole ISCSI服务端，可映射vhd
+
 
