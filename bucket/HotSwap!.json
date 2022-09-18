@@ -1,0 +1,26 @@
+{
+    "version": "6.3.0.0",
+    "description": "Safely Remove removable device",
+    "homepage": "http://mt-naka.com/hotswap/index_enu.htm",
+    "license": "Freeware",
+    "hash": "52868f70d507b902bcfa07f67b9e0f12b9fa14fcdeb13fc11fecde873cd8b7da",
+    "url": "http://mt-naka.com/hotswap/file/HotSwap!%206.3.0.0.ZIP",
+    "bin": "HotSwap!.EXE",
+    "pre_install": "if(Test-Path \"$dir\\$architecture\") {Copy-Item \"$dir\\$architecture\\*\" \"$dir\\\" -Force}",
+    "shortcuts": [
+        [
+            "HotSwap!.EXE",
+            "HotSwap!"
+        ]
+    ],
+    "checkver": {
+        "url": "http://mt-naka.com/hotswap/index_enu.htm",
+        "regex": "file/HotSwap!%20([\\d.]+).ZIP"
+    },
+    "autoupdate": {
+        "url": "http://mt-naka.com/hotswap/file/HotSwap!%20$version.ZIP",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
