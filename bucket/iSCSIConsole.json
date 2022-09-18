@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/TalAloni/iSCSIConsole/releases",
-        "regex": "ISCSIConsole_(?<version>[\\d\\.]+)\\.zip"
+        "regex": "ISCSI Console v?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/TalAloni/iSCSIConsole/releases/download/v$version/ISCSIConsole_$version.zip",
