@@ -19,4 +19,5 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 2. Weylus 把手机或者平板作为手写输入，副屏等
 3. ISCSIConsole ISCSI服务端，可映射vhd
 4. kmonad 键盘改键映射
+5. HotSwap 安全删除被占用的u盘
 
