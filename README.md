@@ -20,4 +20,5 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 3. ISCSIConsole ISCSI服务端，可映射vhd
 4. kmonad 键盘改键映射
 5. HotSwap 安全删除被占用的u盘
+6. TxBENCH 磁盘测速工具
 
