@@ -13,6 +13,10 @@
             "HotSwap"
         ]
     ],
+    "post_install": [
+        "Remove-Item -Recurse \"$dir\\32bit\"",
+        "Remove-Item -Recurse \"$dir\\64bit\""
+    ],
     "checkver": {
         "url": "http://mt-naka.com/hotswap/index_enu.htm",
         "regex": "file/HotSwap!%20([\\d.]+).ZIP"
